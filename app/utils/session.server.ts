@@ -4,7 +4,10 @@ import { createThemeSessionResolver } from "remix-themes";
 const sessionStorage = createCookieSessionStorage({
   cookie: {
     name: "__remix-themes",
-    domain: process.env.NODE_ENV !== "development" ? "asdf" : null,
+    domain:
+      process.env.NODE_ENV !== "development"
+        ? "https://personal-website-sable-tau.vercel.app/"
+        : null,
     path: "/",
     httpOnly: true,
     sameSites: "lax",
