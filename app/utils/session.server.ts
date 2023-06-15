@@ -5,14 +5,14 @@ const sessionStorage = createCookieSessionStorage({
   cookie: {
     name: "__remix-themes",
     domain:
-      process.env.NODE_ENV !== "development"
+      process.env.DEPLOYED === "DEPLOYED"
         ? "https://personal-website-gilt-nine.vercel.app/"
         : null,
     path: "/",
     httpOnly: true,
     sameSites: "lax",
     secrets: ["secert"],
-    secure: process.env.NODE_ENV === "development" ? false : true,
+    secure: process.env.DEPLOYED === "DEPLOYED" ? true : false,
   },
 });
 
