@@ -6,7 +6,7 @@ const sessionStorage = createCookieSessionStorage({
     name: "__remix-themes",
     domain:
       process.env.NODE_ENV !== "development"
-        ? "https://personal-website-sable-tau.vercel.app/"
+        ? "https://personal-website-gilt-nine.vercel.app/"
         : null,
     path: "/",
     httpOnly: true,
