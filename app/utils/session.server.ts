@@ -4,15 +4,12 @@ import { createThemeSessionResolver } from "remix-themes";
 const sessionStorage = createCookieSessionStorage({
   cookie: {
     name: "__remix-themes",
-    domain:
-      process.env.DEPLOYED == "DEPLOYED"
-        ? "https://personal-website-amber-three.vercel.app/"
-        : null,
+    domain: process.env.NODE_ENV !== "development" ? "asdf" : null,
     path: "/",
     httpOnly: true,
     sameSites: "lax",
     secrets: ["secert"],
-    secure: process.env.DEPLOYED === "DEPLOYED" ? true : false,
+    secure: process.env.NODE_ENV === "development" ? false : true,
   },
 });
 
