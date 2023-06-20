@@ -49,7 +49,7 @@ const Projects = () => {
               className="h-56 w-full object-cover"
             />
             <div className="p-4 sm:p-6">
-              <a href={project.link}>
+              <a href={project.link} target="_blank">
                 <h3 className="text-lg font-medium text-gray-900 dark:text-white">
                   {project.title}
                 </h3>
@@ -61,6 +61,7 @@ const Projects = () => {
 
               <a
                 href={project.link}
+                target="_blank"
                 className="group mt-4 inline-flex items-center gap-1 text-sm fotn-medium text-teal-500"
               >
                 Learn More!
