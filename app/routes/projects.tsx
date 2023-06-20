@@ -11,7 +11,7 @@ interface iAppPorps {
 export async function loader({}: LoaderArgs) {
   const query = gql`
     query MyQuery {
-      proejcts {
+      proejcts(orderBy: createdAt_ASC) {
         id
         link
         overview
