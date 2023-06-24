@@ -1,8 +1,6 @@
 # Soo you want to create an personal website / blog with remix.run?
 
-[![Create a Personal Website / Blog using Remix.run, Tailwind.css, Hygraph and GraphQL
-](http://img.youtube.com/vi/5mU1dzOikGI/0.jpg)]([http://www.youtube.com/watch?v=r3n7NPlv7bs](https://www.youtube.com/watch?v=5mU1dzOikGI&ab_channel=JanMarshal) "Create a Personal Website / Blog using Remix.run, Tailwind.css, Hygraph and GraphQL
-")
+[![Create a Personal Website / Blog using Remix.run, Tailwind.css, Hygraph and GraphQL](https://img.youtube.com/vi/5mU1dzOikGI/0.jpg)](https://www.youtube.com/watch?v=5mU1dzOikGI)
 
 -------------
 
